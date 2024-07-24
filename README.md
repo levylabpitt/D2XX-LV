@@ -4,7 +4,7 @@ a better LabVIEW interface to FTDI D2XX drivers
 # Description
 
 # Requirements
--[ FTDI drivers](https://ftdichip.com/drivers/)
+- [FTDI drivers](https://ftdichip.com/drivers/)
 
 # License
 - BSD-3
