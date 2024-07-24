@@ -44,7 +44,8 @@
 		<Item Name="Reset Device.vi" Type="VI" URL="../API/Reset Device.vi"/>
 		<Item Name="Close Device.vi" Type="VI" URL="../API/Close Device.vi"/>
 	</Item>
-	<Item Name="example" Type="Folder">
-		<Item Name="Example Read Write String Data.vi" Type="VI" URL="../example/Example Read Write String Data.vi"/>
+	<Item Name="examples" Type="Folder">
+		<Item Name="List Devices Example.vi" Type="VI" URL="../example/List Devices Example.vi"/>
+		<Item Name="Read Write String Data Example.vi" Type="VI" URL="../example/Read Write String Data Example.vi"/>
 	</Item>
 </Library>
