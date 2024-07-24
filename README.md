@@ -1,4 +1,4 @@
-# D2XX
+# D2XX-LV
 a better LabVIEW interface to FTDI D2XX drivers
 
 # Description
