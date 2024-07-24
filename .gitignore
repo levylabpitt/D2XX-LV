@@ -1,0 +1,4 @@
+*.lvlps
+*.aliases
+builds/
+*.vipb
