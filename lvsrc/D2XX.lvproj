@@ -16,6 +16,10 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="D2XX.vipb" Type="Document" URL="../../build support/D2XX.vipb"/>
 		</Item>
+		<Item Name="examples" Type="Folder">
+			<Item Name="Write-Read Byte Array Demo.vi" Type="VI" URL="../D2XX_Functions_7.0/examples/Write-Read Byte Array Demo.vi"/>
+			<Item Name="Write-Read String Demo.vi" Type="VI" URL="../D2XX_Functions_7.0/examples/Write-Read String Demo.vi"/>
+		</Item>
 		<Item Name="D2XX.lvlib" Type="Library" URL="../D2XX_Functions_7.0/D2XX.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">

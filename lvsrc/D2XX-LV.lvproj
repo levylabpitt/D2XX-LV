@@ -21,10 +21,12 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="D2XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FTDI/D2XX/D2XX.lvlib"/>
+			</Item>
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="D2XX.lvlib" Type="Library" URL="../D2XX_Functions_7.0/D2XX.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

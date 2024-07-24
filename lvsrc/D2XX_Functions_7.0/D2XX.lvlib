@@ -5,10 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="examples" Type="Folder">
-		<Item Name="Write-Read Byte Array Demo.vi" Type="VI" URL="../examples/Write-Read Byte Array Demo.vi"/>
-		<Item Name="Write-Read String Demo.vi" Type="VI" URL="../examples/Write-Read String Demo.vi"/>
-	</Item>
 	<Item Name="drivers" Type="Folder">
 		<Item Name="FT_Clear_DTR.vi" Type="VI" URL="../FT_Clear_DTR.vi"/>
 		<Item Name="FT_Clear_RTS.vi" Type="VI" URL="../FT_Clear_RTS.vi"/>
