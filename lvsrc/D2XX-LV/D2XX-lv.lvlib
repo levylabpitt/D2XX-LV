@@ -14,8 +14,8 @@
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="FT_Status to Error.vi" Type="VI" URL="../private/FT_Status to Error.vi"/>
-		<Item Name="Open Device (Serial Number).vi" Type="VI" URL="../private/Open Device (Serial Number).vi"/>
-		<Item Name="Open Device (Index).vi" Type="VI" URL="../private/Open Device (Index).vi"/>
+		<Item Name="Open Device (serial number).vi" Type="VI" URL="../private/Open Device (serial number).vi"/>
+		<Item Name="Open Device (index).vi" Type="VI" URL="../private/Open Device (index).vi"/>
 		<Item Name="Write Data (String).vi" Type="VI" URL="../private/Write Data (String).vi"/>
 		<Item Name="Write Data (Byte Array).vi" Type="VI" URL="../private/Write Data (Byte Array).vi"/>
 		<Item Name="Read Data (String).vi" Type="VI" URL="../private/Read Data (String).vi"/>
@@ -25,6 +25,7 @@
 		<Item Name="Test D2XX.vi" Type="VI" URL="../Tests/Test D2XX.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get Driver Version.vi" Type="VI" URL="../API/Get Driver Version.vi"/>
 		<Item Name="List Devices.vi" Type="VI" URL="../API/List Devices.vi"/>
 		<Item Name="Get Device Description.vi" Type="VI" URL="../API/Get Device Description.vi"/>
@@ -34,6 +35,7 @@
 		<Item Name="Set Device Baud Rate.vi" Type="VI" URL="../API/Set Device Baud Rate.vi"/>
 		<Item Name="Set Device Data Characteristics.vi" Type="VI" URL="../API/Set Device Data Characteristics.vi"/>
 		<Item Name="Set Device Flow Control.vi" Type="VI" URL="../API/Set Device Flow Control.vi"/>
+		<Item Name="Set Device Bit Mode.vi" Type="VI" URL="../API/Set Device Bit Mode.vi"/>
 		<Item Name="Purge Device Buffers.vi" Type="VI" URL="../API/Purge Device Buffers.vi"/>
 		<Item Name="Set Device DTR.vi" Type="VI" URL="../API/Set Device DTR.vi"/>
 		<Item Name="Set Device RTS.vi" Type="VI" URL="../API/Set Device RTS.vi"/>
@@ -41,6 +43,8 @@
 		<Item Name="Get Device COM Port.vi" Type="VI" URL="../API/Get Device COM Port.vi"/>
 		<Item Name="Write Data.vi" Type="VI" URL="../API/Write Data.vi"/>
 		<Item Name="Read Data.vi" Type="VI" URL="../API/Read Data.vi"/>
+		<Item Name="Write EEPROM User Area.vi" Type="VI" URL="../API/Write EEPROM User Area.vi"/>
+		<Item Name="Read EEPROM User Area.vi" Type="VI" URL="../API/Read EEPROM User Area.vi"/>
 		<Item Name="Reset Device.vi" Type="VI" URL="../API/Reset Device.vi"/>
 		<Item Name="Close Device.vi" Type="VI" URL="../API/Close Device.vi"/>
 	</Item>
