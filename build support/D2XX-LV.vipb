@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-24 10:05:58" Modified_Date="2024-07-26 02:54:38" Creator="ansom" Comments="" ID="d65485369c54ba4d1296a9497961a9da">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-24 10:05:58" Modified_Date="2024-07-26 08:06:28" Creator="ansom" Comments="" ID="d41ba6ed982214698b49302370e7ae70">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_D2XX_LV</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\D2XX-LV</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -523,7 +523,7 @@
         <Path>..\lvsrc\D2XX-LV\example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D77C728E1A1D9A73FB30E9D9A62604B3</GUID>
+      <GUID>44861F0440D0E2DA88DB54F400874DD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +572,7 @@
         <Path>..\lvsrc\D2XX-LV\example\Read Write String Data Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5776A73DACAC91A7C1B67F3AA2F4222</GUID>
+      <GUID>0D6E5FCD611DD6A9DF10D8FE4F76B1ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -691,7 +691,7 @@
         <Path>..\lvsrc\D2XX-LV\private\Read Data (String).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>322CF351A0494F147FDF04ABAD38CA1A</GUID>
+      <GUID>3C8D4DD969EACBA6E9C4481E0FD91F9B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
