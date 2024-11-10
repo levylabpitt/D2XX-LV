@@ -25,6 +25,7 @@
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ftd2xx.dll" Type="Document" URL="../D2XX_Functions_7.0/llib/i386/ftd2xx.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
