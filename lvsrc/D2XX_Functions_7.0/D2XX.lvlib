@@ -77,4 +77,8 @@
 		<Item Name="FT_Write_String_Data.vi" Type="VI" URL="../FT_Write_String_Data.vi"/>
 		<Item Name="FTDI_Status_Explanation.vi" Type="VI" URL="../FTDI_Status_Explanation.vi"/>
 	</Item>
+	<Item Name="lib" Type="Folder">
+		<Item Name="amd64.lvclass" Type="LVClass" URL="../lib/amd64.lvclass"/>
+		<Item Name="i386.lvclass" Type="LVClass" URL="../lib/i386.lvclass"/>
+	</Item>
 </Library>
