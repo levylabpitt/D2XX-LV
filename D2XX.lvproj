@@ -15,7 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="D2XX.vipb" Type="Document" URL="../../build support/D2XX.vipb"/>
+			<Item Name="D2XX.vipb" Type="Document" URL="../build support/D2XX.vipb"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="change CLFN properties.vi" Type="VI" URL="../Utility/change CLFN properties.vi"/>
