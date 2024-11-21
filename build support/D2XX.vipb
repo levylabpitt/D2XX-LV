@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-07-24 13:29:58" Modified_Date="2024-11-10 10:06:15" Creator="ansom" Comments="" ID="79883f581c59564338d1bb200dcef7cb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-07-24 13:29:58" Modified_Date="2024-11-21 14:26:59" Creator="ansom" Comments="" ID="72747306e5685ecd869162ba8010b30d">
   <Library_General_Settings>
     <Package_File_Name>FTDI_lib_D2XX</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\D2XX_Functions_7.0</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -28,12 +28,11 @@
     <VI_Package_Configuration_File>D2XX.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.DLL using LabVIEW. </One_Line_Description_Summary>
-      <Description>examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.DLL using LabVIEW. This package organizes files provided by FTDI into a LV library</Description>
+      <Description>examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.dll / FTD2XX64.dll using LabVIEW. This package organizes files provided by FTDI into a LV library</Description>
       <Copyright/>
       <Packager>FTDI / Patrick Irvin</Packager>
       <URL>https://ftdichip.com/software-examples/code-examples/labview-examples/</URL>
-      <Release_Notes>include  ftd2xx.dll
-specify 32 bit support only</Release_Notes>
+      <Release_Notes>add support for 64 bit</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -171,7 +170,7 @@ specify 32 bit support only</Release_Notes>
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>false</LV_64-Bit>
+      <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -1201,7 +1200,7 @@ specify 32 bit support only</Release_Notes>
         <Path>..\lvsrc\D2XX_Functions_7.0\FTDI_Status_Explanation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5212E7F7B54C4DD8E2154F93AAE82C0D</GUID>
+      <GUID>1682108EFB32D09FD9B326D88702992A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1250,7 +1249,7 @@ specify 32 bit support only</Release_Notes>
         <Path>..\lvsrc\D2XX_Functions_7.0\examples\Write-Read String Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BD9A53C25EE20A219759C0A05E45F68</GUID>
+      <GUID>6CDEDEBC3D8CC5C15B426444388FBF11</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
