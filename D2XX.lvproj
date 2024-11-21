@@ -23,7 +23,7 @@
 			<Item Name="GetImageFileMachineVersion.vi" Type="VI" URL="../Utility/GetImageFileMachineVersion.vi"/>
 			<Item Name="show CLFN calls.vi" Type="VI" URL="../Utility/show CLFN calls.vi"/>
 			<Item Name="Update terminal.vi" Type="VI" URL="../Utility/Update terminal.vi"/>
-			<Item Name="Update PGconn and PGResults type.vi" Type="VI" URL="../Utility/Update PGconn and PGResults type.vi"/>
+			<Item Name="Update CLFN Handle type.vi" Type="VI" URL="../Utility/Update CLFN Handle type.vi"/>
 		</Item>
 		<Item Name="D2XX.lvlib" Type="Library" URL="../lvsrc/D2XX_Functions_7.0/D2XX.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
