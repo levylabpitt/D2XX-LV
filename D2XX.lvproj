@@ -22,6 +22,7 @@
 			<Item Name="GetFileVersion_DotNet.vi" Type="VI" URL="../Utility/GetFileVersion_DotNet.vi"/>
 			<Item Name="GetImageFileMachineVersion.vi" Type="VI" URL="../Utility/GetImageFileMachineVersion.vi"/>
 			<Item Name="show CLFN calls.vi" Type="VI" URL="../Utility/show CLFN calls.vi"/>
+			<Item Name="Update terminal.vi" Type="VI" URL="../Utility/Update terminal.vi"/>
 			<Item Name="Update PGconn and PGResults type.vi" Type="VI" URL="../Utility/Update PGconn and PGResults type.vi"/>
 		</Item>
 		<Item Name="D2XX.lvlib" Type="Library" URL="../lvsrc/D2XX_Functions_7.0/D2XX.lvlib"/>
@@ -38,13 +39,13 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
-			</Item>
-			<Item Name="ftd2xx.dll" Type="Document" URL="../lvsrc/D2XX_Functions_7.0/llib/i386/ftd2xx.dll"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

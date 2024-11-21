@@ -81,7 +81,8 @@
 		<Item Name="Write-Read String Demo.vi" Type="VI" URL="../examples/Write-Read String Demo.vi"/>
 	</Item>
 	<Item Name="lib" Type="Folder">
-		<Item Name="amd64.lvclass" Type="LVClass" URL="../lib/amd64.lvclass"/>
-		<Item Name="i386.lvclass" Type="LVClass" URL="../lib/i386.lvclass"/>
+		<Item Name="amd64.lvclass" Type="LVClass" URL="../lib/amd64/amd64.lvclass"/>
+		<Item Name="i386.lvclass" Type="LVClass" URL="../lib/i386/i386.lvclass"/>
+		<Item Name="path.vi" Type="VI" URL="../lib/path.vi"/>
 	</Item>
 </Library>
