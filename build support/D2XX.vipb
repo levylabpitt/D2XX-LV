@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-07-24 13:29:58" Modified_Date="2024-11-21 14:26:59" Creator="ansom" Comments="" ID="72747306e5685ecd869162ba8010b30d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-07-24 13:29:58" Modified_Date="2024-11-21 20:48:34" Creator="ansom" Comments="" ID="490008a43959f59f0b063a0b3cf4ba5b">
   <Library_General_Settings>
     <Package_File_Name>FTDI_lib_D2XX</Package_File_Name>
-    <Library_Version>1.2.0.5</Library_Version>
+    <Library_Version>1.2.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\D2XX_Functions_7.0</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -1200,7 +1200,7 @@
         <Path>..\lvsrc\D2XX_Functions_7.0\FTDI_Status_Explanation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1682108EFB32D09FD9B326D88702992A</GUID>
+      <GUID>A7F33F316718C0EC2F9CFD9200A45E69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1249,7 +1249,7 @@
         <Path>..\lvsrc\D2XX_Functions_7.0\examples\Write-Read String Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CDEDEBC3D8CC5C15B426444388FBF11</GUID>
+      <GUID>4FB8DDD48DC669D615922920E943B48D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
