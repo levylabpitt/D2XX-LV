@@ -1,5 +1,5 @@
 # D2XX-LV
-a better LabVIEW interface to FTDI D2XX drivers
+An improved LabVIEW interface for FTDI D2XX drivers.
 
 # Description
 [FTDI](https://ftdichip.com/) provides a set of [wrapper VIs](https://ftdichip.com/software-examples/code-examples/labview-examples/) to access FTD2XX.dll using LabVIEW. While these VIs are useful, they do not follow standard conventions such as having error terminals and uniform terminal layout.
@@ -18,7 +18,8 @@ becomes:
 ![image](https://github.com/user-attachments/assets/ac827d65-25f4-4d1d-bb4d-d3266cfa4aca)
 
 # Requirements
-- [FTDI drivers](https://ftdichip.com/drivers/)
+- LabVIEW 2019
+- beginning with library v1.2, both 32 bit and 64 bit libraries are supported
 
 # License
 - D2XX-LV: BSD-3
