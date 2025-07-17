@@ -11,19 +11,6 @@
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="Device Info.ctl" Type="VI" URL="../typedefs/Device Info.ctl"/>
 	</Item>
-	<Item Name="private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="FT_Status to Error.vi" Type="VI" URL="../private/FT_Status to Error.vi"/>
-		<Item Name="Open Device (serial number).vi" Type="VI" URL="../private/Open Device (serial number).vi"/>
-		<Item Name="Open Device (index).vi" Type="VI" URL="../private/Open Device (index).vi"/>
-		<Item Name="Write Data (String).vi" Type="VI" URL="../private/Write Data (String).vi"/>
-		<Item Name="Write Data (Byte Array).vi" Type="VI" URL="../private/Write Data (Byte Array).vi"/>
-		<Item Name="Read Data (String).vi" Type="VI" URL="../private/Read Data (String).vi"/>
-		<Item Name="Read Data (Byte Array).vi" Type="VI" URL="../private/Read Data (Byte Array).vi"/>
-	</Item>
-	<Item Name="Tests" Type="Folder">
-		<Item Name="Test D2XX.vi" Type="VI" URL="../Tests/Test D2XX.vi"/>
-	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get Driver Version.vi" Type="VI" URL="../API/Get Driver Version.vi"/>
@@ -31,6 +18,8 @@
 		<Item Name="Get Device Description.vi" Type="VI" URL="../API/Get Device Description.vi"/>
 		<Item Name="Count Devices.vi" Type="VI" URL="../API/Count Devices.vi"/>
 		<Item Name="Open Device.vi" Type="VI" URL="../API/Open Device.vi"/>
+		<Item Name="Open Device (index).vi" Type="VI" URL="../API/Open Device (index).vi"/>
+		<Item Name="Open Device (serial number).vi" Type="VI" URL="../API/Open Device (serial number).vi"/>
 		<Item Name="Get Device Serial Number.vi" Type="VI" URL="../API/Get Device Serial Number.vi"/>
 		<Item Name="Set Device Baud Rate.vi" Type="VI" URL="../API/Set Device Baud Rate.vi"/>
 		<Item Name="Set Device Data Characteristics.vi" Type="VI" URL="../API/Set Device Data Characteristics.vi"/>
@@ -42,11 +31,22 @@
 		<Item Name="Get Device Info.vi" Type="VI" URL="../API/Get Device Info.vi"/>
 		<Item Name="Get Device COM Port.vi" Type="VI" URL="../API/Get Device COM Port.vi"/>
 		<Item Name="Write Data.vi" Type="VI" URL="../API/Write Data.vi"/>
+		<Item Name="Write Data (String).vi" Type="VI" URL="../API/Write Data (String).vi"/>
+		<Item Name="Write Data (Byte Array).vi" Type="VI" URL="../API/Write Data (Byte Array).vi"/>
 		<Item Name="Read Data.vi" Type="VI" URL="../API/Read Data.vi"/>
+		<Item Name="Read Data (String).vi" Type="VI" URL="../API/Read Data (String).vi"/>
+		<Item Name="Read Data (Byte Array).vi" Type="VI" URL="../API/Read Data (Byte Array).vi"/>
 		<Item Name="Write EEPROM User Area.vi" Type="VI" URL="../API/Write EEPROM User Area.vi"/>
 		<Item Name="Read EEPROM User Area.vi" Type="VI" URL="../API/Read EEPROM User Area.vi"/>
 		<Item Name="Reset Device.vi" Type="VI" URL="../API/Reset Device.vi"/>
 		<Item Name="Close Device.vi" Type="VI" URL="../API/Close Device.vi"/>
+	</Item>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="FT_Status to Error.vi" Type="VI" URL="../private/FT_Status to Error.vi"/>
+	</Item>
+	<Item Name="Tests" Type="Folder">
+		<Item Name="Test D2XX.vi" Type="VI" URL="../Tests/Test D2XX.vi"/>
 	</Item>
 	<Item Name="examples" Type="Folder">
 		<Item Name="List Devices Example.vi" Type="VI" URL="../example/List Devices Example.vi"/>
