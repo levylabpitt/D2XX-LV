@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-24 10:05:58" Modified_Date="2025-07-17 14:34:09" Creator="ansom" Comments="" ID="f7c5c5eb0cdfcf816f1046f34231369a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-24 10:05:58" Modified_Date="2026-01-10 09:28:58" Creator="ansom" Comments="" ID="84302fdf48746f46c949114c6702ed9c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_D2XX_LV</Package_File_Name>
-    <Library_Version>1.3.0.9</Library_Version>
+    <Library_Version>1.4.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\D2XX-LV</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -34,8 +34,8 @@
       <Copyright/>
       <Packager>Patrick Irvin / LevyLab</Packager>
       <URL>https://github.com/levylabpitt/D2XX</URL>
-      <Release_Notes>Issue #5
-- Updates palette and installation location</Release_Notes>
+      <Release_Notes>Issue #7
+- improved list devices when multiple devices are present but some are already open</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -514,7 +514,7 @@
         <Path>..\lvsrc\D2XX-LV\API\Reset Device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65624B9CC0A14CF0DD2B33BF05572B6E</GUID>
+      <GUID>D9F5477001B2F208B6F7383DD81AAD95</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -549,7 +549,7 @@
         <Path>..\lvsrc\D2XX-LV\private\FT_Status to Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0BAD1B4949F19D32193138B24C0C7FE</GUID>
+      <GUID>AEEC7A44D2E851015027F571535AC3A2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
