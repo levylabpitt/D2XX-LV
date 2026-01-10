@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-24 10:05:58" Modified_Date="2026-01-10 09:22:22" Creator="ansom" Comments="" ID="c771559cd938780b5ec7baa6732132df">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-24 10:05:58" Modified_Date="2026-01-10 09:28:58" Creator="ansom" Comments="" ID="84302fdf48746f46c949114c6702ed9c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_D2XX_LV</Package_File_Name>
-    <Library_Version>1.4.0.9</Library_Version>
+    <Library_Version>1.4.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\D2XX-LV</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Packager>Patrick Irvin / LevyLab</Packager>
       <URL>https://github.com/levylabpitt/D2XX</URL>
       <Release_Notes>Issue #7
-- improving listing of devices when multiple devices are present but some may already have an open handle</Release_Notes>
+- improved list devices when multiple devices are present but some are already open</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
